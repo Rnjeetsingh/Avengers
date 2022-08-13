@@ -1,0 +1,65 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+#container {
+    display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 750px;
+    background-color: white;
+    width: 100%;
+    padding-top: 50px;
+    margin: auto;
+    background: #3256D6;
+    background: -webkit-radial-gradient(top left, #3256D6, #C668D2);
+    background: -moz-radial-gradient(top left, #3256D6, #C668D2);
+    background: radial-gradient(to bottom right, #3256D6, #C668D2);
+}
+#container>form{
+    background-color: white;
+    height: 600px;
+    width: 30%;
+    margin: auto;
+    padding-top: 0px;
+    border-radius: 20px;
+    padding-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-template-rows: repeat(6,50px);
+    gap: 20px;
+    justify-items: center;
+    align-items: center;
+}
+#signupform>input{
+    margin: auto;
+    margin-top: 20%;
+}
+#signupform>h1,h3{
+   text-align: center;
+   padding-top: 50%;
+}
+#email,#pass{
+    border: none;
+	border-bottom: 5px solid #69696b9f;
+	background: none;
+	padding: 10px;
+	padding-left: 24px;
+	font-weight: 700;
+	width: 80%;
+    margin: auto;
+}
+#login{
+    width: 80%;
+    background: #3256D6;
+    background: -webkit-radial-gradient(top left, #3256D6, #C668D2);
+    background: -moz-radial-gradient(top left, #3256D6, #C668D2);
+    background: radial-gradient(to bottom right, #3256D6, #C668D2);
+    border: none;
+    margin: auto;
+    height: 70px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
