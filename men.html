@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      #fir {
+        width: 60%;
+        margin: auto;
+        display: grid;
+        gap: 20px;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 400px;
+        box-shadow: rgba(70, 85, 99, 0.2) 0px 8px 24px;
+      }
+      #image {
+        height:400px;
+        width: 100%;
+        margin: auto;
+      }
+      img {
+        height: 90%;
+      }
+      #image ~ p {
+        margin-top: -10px;
+      }
+      #price {
+        display: flex;
+      }
+      #price {
+        margin-top: -25px;
+      }
+      #price p {
+        margin-left: 10px;
+      }
+
+      #price > :nth-child(2) {
+        margin-top: 22px;
+        text-decoration: line-through;
+        font-size: 20px;
+        color: rgb(37, 34, 34);
+      }
+
+      #price > :nth-child(3) {
+        margin-top: 22px;
+        color: rgb(54, 210, 54);
+        font-size: 20px;
+      }
+      
+      #fir > div > :nth-child(3) {
+        color: rgb(142, 134, 134);
+        font-size: 18px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="fir">
+      <div>
+        <div id="image">
+          <img
+            src="https://5.imimg.com/data5/ZN/JZ/NM/GLADMIN-56986/men-shrug-500x500.jpg"
+            alt=""
+          />
+        </div>
+        <h2>Pause</h2>
+        <p>Men Cotton Long sleeves Shrug</p>
+        <div id="price">
+          <h2>₹ 359</h2>
+          <p id="Prices">₹1499</p>
+          <p id="disscount">-76%</p>
+        </div>
+      </div>
+      <div>
+        <div id="image">
+          <img
+            src="https://5.imimg.com/data5/BR/JG/MY-42299613/mens-sleeveless-sweater-500x500.jpg"
+            alt=""
+          />
+        </div>
+        <h2>JUBINATION</h2>
+        <p>Men Cotton Long sleeves Shrug</p>
+        <div id="price">
+          <h2>₹ 799</h2>
+          <p id="Prices">₹1499</p>
+          <p id="disscount">-47%</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
